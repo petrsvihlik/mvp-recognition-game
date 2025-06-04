@@ -5,105 +5,105 @@ const mvps = [
         title: "Principal Systems Developer",
         company: "IDHL",
         country: "UK",
-        photo: "images/liam-goldfinch.jpg"
+        photo: "images/liam-goldfinch.webp"
     },
     {
         name: "Ben Quinlan",
         title: "Director / Solution Architect",
         company: "Zeroseven",
         country: "AUS",
-        photo: "images/ben-quinlan.jpg"
+        photo: "images/ben-quinlan.webp"
     },
     {
         name: "Elmar Höfinghoff",
         title: "Senior Web Engineer",
         company: "Schulte-Schlagbaum AG",
         country: "DE",
-        photo: "images/elmar-hofinghoff.jpg"
+        photo: "images/elmar-hofinghoff.webp"
     },
     {
         name: "Michael Eustace",
         title: "Head of Web Development",
         company: "Modern Citizens",
         country: "UK",
-        photo: "images/michael-eustace.jpg"
+        photo: "images/michael-eustace.webp"
     },
     {
         name: "Trevor Fayas",
         title: "Owner",
         company: "The Physics Classroom",
         country: "USA",
-        photo: "images/trevor-fayas.jpg"
+        photo: "images/trevor-fayas.webp"
     },
     {
         name: "Andy Thompson",
         title: "CTO",
         company: "Luminary",
         country: "AUS",
-        photo: "images/andy-thompson.jpg"
+        photo: "images/andy-thompson.webp"
     },
     {
         name: "Derek Barka",
         title: "Chief Technology Officer",
         company: "SilverTech",
         country: "US",
-        photo: "images/derek-barka.jpg"
+        photo: "images/derek-barka.webp"
     },
     {
         name: "Mike Wills",
         title: "Vice President of Technology",
         company: "BlueModus",
         country: "USA",
-        photo: "images/mike-wills.jpg"
+        photo: "images/mike-wills.webp"
     },
     {
         name: "Wesley McChristian",
         title: "Kentico Practice VP",
         company: "Americaneagle.com",
         country: "USA",
-        photo: "images/wesley-mcchristian.jpg"
+        photo: "images/wesley-mcchristian.webp"
     },
     {
         name: "Joe Peschardt",
         title: "Client Business Director",
         company: "Devotion Digital",
         country: "AUS",
-        photo: "images/joe-peschardt.jpg"
+        photo: "images/joe-peschardt.webp"
     },
     {
         name: "Brian McKeiver",
         title: "Co-Owner",
         company: "BizStream",
         country: "USA",
-        photo: "images/brian-mckeiver.jpg"
+        photo: "images/brian-mckeiver.webp"
     },
     {
         name: "Jeroen Fürst",
         title: "Digital Experience Architect",
         company: "TrueLime",
         country: "NL",
-        photo: "images/jeroen-furst.jpg"
+        photo: "images/jeroen-furst.webp"
     },
     {
         name: "Dmitry Bastron",
         title: "Head of Development",
         company: "ByteMinds",
         country: "ME",
-        photo: "images/dmitry-bastron.jpg"
+        photo: "images/dmitry-bastron.webp"
     },
     {
         name: "Roel Kuik",
         title: "Kentico Practice Lead",
         company: "Aviva Solutions",
         country: "NL",
-        photo: "images/roel-kuik.jpg"
+        photo: "images/roel-kuik.webp"
     },
     {
         name: "Łukasz Skowroński",
         title: "Senior Solutions Architect",
         company: "Konabos",
         country: "PL",
-        photo: "images/lukasz-skowronski.jpg"
+        photo: "images/lukasz-skowronski.webp"
     }
 ];
 

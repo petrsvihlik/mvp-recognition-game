@@ -4,7 +4,7 @@ A fun and interactive game to help Kentico employees learn and remember the name
 
 ## 🎮 How to Play
 
-1. **Look at the Photo**: Each round shows you a photo of one of the 15 Kentico MVPs
+1. **Look at the Photo**: Each round shows you a real photo of one of the 15 Kentico MVPs
 2. **Choose the Correct Name**: Select from three multiple-choice options
 3. **Build Your Streak**: Correct answers increase your streak counter
 4. **Reach the Goal**: Win by achieving a streak of 15 (identifying all MVPs correctly in a row)
@@ -14,46 +14,53 @@ A fun and interactive game to help Kentico employees learn and remember the name
 
 Simply open `index.html` in your web browser - no server or installation required!
 
-The game includes locally stored avatar images for all MVPs, ensuring fast loading and offline compatibility.
+The game includes **real MVP photos** downloaded directly from the [official Kentico community programs page](https://community.kentico.com/community/programs), ensuring accurate representation of all current MVPs.
 
 ## ✨ Features
 
-- **Real MVP Images**: Uses locally stored avatar images for all 15 current MVPs
-- **Modern UI**: Clean, responsive design with smooth animations
-- **Smart Randomization**: Ensures you see all MVPs without immediate repeats
-- **Progress Tracking**: Tracks your current streak and overall score
-- **Educational Feedback**: Shows MVP details (title, company) when you answer
-- **Win Celebration**: Special congratulations modal when you complete the challenge
-- **Mobile Friendly**: Works great on all device sizes
-- **Offline Ready**: All images and resources work without internet connection
+- **Authentic MVP Photos**: Real professional photos from the Kentico community site
+- **Smart Randomization**: Ensures all MVPs are seen without immediate repeats
+- **Beautiful UI**: Clean, responsive design with smooth animations
+- **Streak System**: Build momentum by answering correctly in a row
+- **Instant Feedback**: Learn MVP details immediately after each answer
+- **Win Condition**: Achieve the ultimate goal of a 15-question perfect streak
+- **Fallback System**: Automatic fallback to generated avatars if photos fail to load
 
-## 📊 Game Mechanics
+## 📊 MVP Coverage
 
-- **Streak Counter**: Shows consecutive correct answers
-- **Target**: 15 (total number of Kentico MVPs)
-- **Score**: Overall correct/total ratio
-- **Win Condition**: Achieve a streak of 15
-- **Reset Condition**: Any wrong answer resets streak to 0
+The game includes all **15 current Kentico MVPs for 2025**:
+- Liam Goldfinch (UK) - IDHL
+- Ben Quinlan (AUS) - Zeroseven  
+- Elmar Höfinghoff (DE) - Schulte-Schlagbaum AG
+- Michael Eustace (UK) - Modern Citizens
+- Trevor Fayas (USA) - The Physics Classroom
+- Andy Thompson (AUS) - Luminary
+- Derek Barka (US) - SilverTech
+- Mike Wills (USA) - BlueModus
+- Wesley McChristian (USA) - Americaneagle.com
+- Joe Peschardt (AUS) - Devotion Digital
+- Brian McKeiver (USA) - BizStream
+- Jeroen Fürst (NL) - TrueLime
+- Dmitry Bastron (ME) - ByteMinds
+- Roel Kuik (NL) - Aviva Solutions
+- Łukasz Skowroński (PL) - Konabos
 
-## 👥 Current Kentico MVPs (2025)
+## 🎯 Game Mechanics
 
-The game includes all 15 current Kentico MVPs with their avatar images:
+- **Question Pool**: 15 unique MVPs
+- **Answer Choices**: 3 options per question (1 correct, 2 incorrect)
+- **Scoring**: Current streak and overall accuracy tracking
+- **Win Condition**: Streak of 15 (perfect game)
+- **Reset**: Wrong answers reset streak to 0
 
-1. **Liam Goldfinch** - Principal Systems Developer at IDHL (UK)
-2. **Ben Quinlan** - Director / Solution Architect at Zeroseven (AUS)
-3. **Elmar Höfinghoff** - Senior Web Engineer at Schulte-Schlagbaum AG (DE)
-4. **Michael Eustace** - Head of Web Development at Modern Citizens (UK)
-5. **Trevor Fayas** - Owner at The Physics Classroom (USA)
-6. **Andy Thompson** - CTO at Luminary (AUS)
-7. **Derek Barka** - Chief Technology Officer at SilverTech (US)
-8. **Mike Wills** - Vice President of Technology at BlueModus (USA)
-9. **Wesley McChristian** - Kentico Practice VP at Americaneagle.com (USA)
-10. **Joe Peschardt** - Client Business Director at Devotion Digital (AUS)
-11. **Brian McKeiver** - Co-Owner at BizStream (USA)
-12. **Jeroen Fürst** - Digital Experience Architect at TrueLime (NL)
-13. **Dmitry Bastron** - Head of Development at ByteMinds (ME)
-14. **Roel Kuik** - Kentico Practice Lead at Aviva Solutions (NL)
-15. **Łukasz Skowroński** - Senior Solutions Architect at Konabos (PL)
+## 💡 Tips for Success
+
+- Study the faces carefully - some MVPs may look similar at first glance
+- Pay attention to the feedback after each answer to learn names and companies
+- The game gets easier as you build familiarity with the MVP community
+- Challenge colleagues to beat your best streak!
+
+Built with ❤️ for the Kentico community
 
 ## 🛠 Technical Details
 
