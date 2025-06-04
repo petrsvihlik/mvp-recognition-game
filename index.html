@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kentico MVP Recognition Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">🏆 Kentico MVP Recognition Game</h1>
+            <p class="subtitle">Test your knowledge of Kentico's Most Valuable Professionals!</p>
+        </header>
+
+        <div class="game-area">
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Current Streak:</span>
+                    <span class="stat-value" id="streak">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Target:</span>
+                    <span class="stat-value">15</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Score:</span>
+                    <span class="stat-value" id="score">0/0</span>
+                </div>
+            </div>
+
+            <div class="mvp-photo-container">
+                <img id="mvp-photo" src="" alt="MVP Photo" class="mvp-photo">
+                <div class="photo-placeholder" id="photo-placeholder">
+                    <div class="placeholder-icon">👤</div>
+                    <p>Loading MVP...</p>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <h2 class="question">Who is this Kentico MVP?</h2>
+                
+                <form id="answer-form" class="answer-form">
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="mvp-choice" value="0">
+                            <span class="radio-custom"></span>
+                            <span class="option-text" id="option-0">Option 1</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="mvp-choice" value="1">
+                            <span class="radio-custom"></span>
+                            <span class="option-text" id="option-1">Option 2</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="mvp-choice" value="2">
+                            <span class="radio-custom"></span>
+                            <span class="option-text" id="option-2">Option 3</span>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn" id="submit-btn" disabled>
+                        Submit Answer
+                    </button>
+                </form>
+            </div>
+
+            <div class="feedback" id="feedback"></div>
+        </div>
+
+        <div class="win-modal" id="win-modal">
+            <div class="modal-content">
+                <h2>🎉 Congratulations!</h2>
+                <p>You've successfully identified all 15 Kentico MVPs!</p>
+                <p>Your final score: <span id="final-score"></span></p>
+                <button class="play-again-btn" onclick="restartGame()">Play Again</button>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h3>How to Play:</h3>
+            <ul>
+                <li>Look at the MVP's photo and select their correct name</li>
+                <li>Build a streak by answering correctly in a row</li>
+                <li>Win by reaching a streak of 15 (all MVPs)</li>
+                <li>Wrong answers reset your streak to 0</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
